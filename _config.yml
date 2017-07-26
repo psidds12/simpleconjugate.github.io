@@ -1,1 +1,33 @@
 theme: jekyll-theme-minimal
+
+
+# This is the default format. 
+# Dependencies
+
+#markdown:
+#highlighter:
+
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+title : Andrew Touchet
+tagline: 'Personal Website'
+description:
+    Ph.D. Student at Louisiana Tech University
+#url: 
+baseurl: /
+
+author :
+  name : Andrew Touchet
+  email : andrewtouchet@gmail.com 
+  github : SimpleConjugate
+  twitter : AndrewTouchet
+
+github:
+  repo: https://github.com/simpleconjugate/simpleconjugate.github.io
+
+#permalink: /blog/:year/:month/:day/:title.html
+
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+exclude: ["*.ipynb"]
